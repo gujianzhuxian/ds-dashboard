@@ -1,12 +1,9 @@
 <script lang="ts" setup>
-import { useAppModel } from '@/model';
 import { LayoutFooter } from '@arco-design/web-vue';
-
-const { state } = useAppModel();
 </script>
 
 <template>
-  <LayoutFooter class="footer">{{ state.title }}</LayoutFooter>
+  <LayoutFooter class="footer">Arco Pro</LayoutFooter>
 </template>
 
 <style lang="less" scoped>
